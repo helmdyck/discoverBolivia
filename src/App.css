@@ -1,0 +1,13 @@
+/*Color scheme in Huemint.com https://huemint.com/website-monochrome/#palette=1c1b1a-d5d3d2*/
+
+:root {
+  --main-bg-color: #1c1b1a;
+  --text-color: #d5d3d2;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--main-bg-color);
+  color: var(--text-color);
+}
