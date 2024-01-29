@@ -55,11 +55,11 @@ body {
 }
 
 .second {
-  transform: translateZ(-4px) scale(1.4);
+  transform: translateZ(-2px) scale(1.2);
 }
 
 .first {
-  transform: translateZ(-2px) scale(1.2);
+  transform: translateZ(0) scale(1);
 }
 
 .fourth,
@@ -80,14 +80,14 @@ body {
   color: var(--text-color);
 }
 
-.header::after{
+/* .header::after{
   content: "";
   position: absolute;
   bottom: 0;
   height: 5rem;
   width: 100%;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0), var(--main-bg-color));
-}
+} */
 
 
 .categories{
@@ -107,10 +107,11 @@ body {
 
 .img__card{
   opacity: 0;
+  border-radius: 10%;
 }
 
 .img__card img {
-  border-radius: 1rem;
+  border-radius: 10%;
 }
 
 .details {
