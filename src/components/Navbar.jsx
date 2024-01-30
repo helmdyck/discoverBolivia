@@ -7,8 +7,8 @@ function Navbar() {
         <div className="nav__body">
           <p className="nav-logo">HELMUTH DYCK</p>
           <div className="pages">
-            <i className="bi bi-grid-3x3-gap-fill"></i>
-            <i className="bi bi-info-square-fill"></i>
+            <p>explore</p>
+            <p>about</p>
           </div>
         </div>
       
