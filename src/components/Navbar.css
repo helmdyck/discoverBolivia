@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@100;400;700;900&display=swap");
+
+:root {
+  --main-bg-color: #1c1b1a;
+  --text-color: #d5d3d2;
+  --font-family: "Roboto Condensed", sans-serif;
+}
+
+.nav-container {
+  position: fixed;
+  background-color: var(--main-bg-color);
+  color: var(--text-color);
+  min-width: 100%;
+  transition: 0.5s ease-in-out;
+  z-index: 1;
+}
+
+.nav-logo {
+  width: 150px;
+  object-fit: contain;
+  transition: 0.5s ease-in-out;
+  font-weight: 700;
+  mix-blend-mode: difference;
+}
+
+/*Pages*/
+.pages {
+  display: flex;
+  flex-direction: row;
+  margin-left: 1.5rem;
+  gap: 15px;
+}
+
+.pages i {
+  cursor: pointer;
+  mix-blend-mode: difference;
+}
+
+.navbar-body {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.nav__body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 80px 0 64px;
+}
+
+.brand-pages-body p {
+  cursor: pointer;
+}
+
+.user-body i {
+  padding: 8px 4px;
+}
+
+.nav-icon {
+  font-size: 1.33rem;
+}
+
+.nav-icon-profile {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 992px) {
+  .user-body {
+    display: none;
+  }
+
+  .navbar-body {
+    margin: 0;
+  }
+
+  .pages {
+    display: none;
+  }
+
+  .burger-menu i {
+    display: block;
+  }
+
+  .cart-menu i {
+    display: block;
+  }
+
+  .cart-menu span {
+    display: block;
+  }
+}
+
+@media (max-width: 576px) {
+}

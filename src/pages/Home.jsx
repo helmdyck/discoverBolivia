@@ -25,15 +25,19 @@ function Home() {
           <div className="image__gallery">
             <div className="image__card" id="image__car-1">
               <img src={cities} alt="grid" />
+              <h2>Cities</h2>
             </div>
             <div className="image__card" id="image__car-2">
               <img src={forests} alt="grid" />
+              <h2>Forests</h2>
             </div>
             <div className="image__card" id="image__car-3">
               <img src={valleys} alt="grid" />
+              <h2>Valleys</h2>
             </div>
             <div className="image__card" id="image__car-4">
               <img src={lakes} alt="grid" />
+              <h2>Lakes</h2>
             </div>
           </div>
           <div className="details">
